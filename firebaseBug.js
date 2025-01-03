@@ -1,0 +1,1 @@
+The Firebase SDKs sometimes return promises that are never resolved or rejected, leading to deadlocks or unexpected behavior.  This can occur due to network issues, server-side errors, or bugs within the SDK itself.  Identifying the root cause can be challenging because standard debugging techniques might not reveal the hanging promise.
